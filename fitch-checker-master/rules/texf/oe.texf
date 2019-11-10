@@ -1,0 +1,6 @@
+$\begin{nd}
+	\have[\alpha]{ab}{\meta{A}\eor\meta{B}}
+	\have[\beta]{ac}{\meta{A}\eif\meta{C}}
+	\have[\gamma]{bc}{\meta{B}\eif\meta{C}}
+	\have[\ ]{c}{\meta{C}} \oe{ab,ac,bc}
+\end{nd}$

@@ -1,0 +1,4 @@
+$\begin{nd}
+	\hypo[i]{a}{\enot\meta{A} \to \ered}
+\have[\hskip .8em]{na}{\meta{A}}{\ne{a}}
+\end{nd}$

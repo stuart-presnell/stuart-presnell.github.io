@@ -1,0 +1,6 @@
+{
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.quickSuggestionsDelay": 100,
+    "editor.snippetSuggestions": "none"
+}

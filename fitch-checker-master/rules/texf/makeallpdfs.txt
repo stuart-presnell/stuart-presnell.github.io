@@ -1,0 +1,15 @@
+#!/bin/bash
+for STR in \
+ai ae \
+bi be \
+ci ce \
+ni ne \
+oi oe \
+r mt dne ds dem lem; do 
+cat rule-template.tex | sed 's/TARGET/'$STR'/' | pdflatex; 
+mv texput.pdf $STR.pdf;
+done;
+
+
+
+# $( ls *.pdf | sed 's/.pdf//' )

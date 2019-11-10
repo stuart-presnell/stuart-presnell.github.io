@@ -1,0 +1,14 @@
+#!/bin/bash
+for STR in \
+ai ae \
+bi be \
+ci ce \
+ni ne \
+oi oe \
+r mt dne ds dem lem; do 
+pdf2svg $STR.pdf $STR.svg
+done;
+
+
+
+# $( ls *.pdf | sed 's/.pdf//' )

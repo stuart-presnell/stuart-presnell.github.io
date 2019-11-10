@@ -1,0 +1,3 @@
+$\begin{nd}
+    \have[\hskip .8em]{}{\meta{A}\eor\enot\meta{A}}{\by{LEM}{}}
+\end{nd}$

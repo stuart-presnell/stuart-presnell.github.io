@@ -1,0 +1,49 @@
+proofs.js:
+	processProofExportResponse
+	p.startExportMe
+	
+	
+	
+If the proof is
+1 P&Q
+------
+2 Q		&E1
+3 | H
+  -----
+4 | J   R3
+5 H->J  ->I3-4
+6 P		&E1
+
+
+then json_encode($pr_data); in exportproof.php
+which is $pr in export_proof() in proofs.php
+is:
+
+[  
+   {  
+      "wffstr":"P & Q",
+      "jstr":"Pr"
+   },
+   {  
+      "wffstr":"Q",
+      "jstr":"&E 1"
+   },
+   [  
+      {  
+         "wffstr":"H",
+         "jstr":"Hyp"
+      },
+      {  
+         "wffstr":"J",
+         "jstr":"R 3"
+      }
+   ],
+   {  
+      "wffstr":"H\u2192J",
+      "jstr":"\u2192I 3\u20134"
+   },
+   {  
+      "wffstr":"P",
+      "jstr":"&E 1"
+   }
+]
